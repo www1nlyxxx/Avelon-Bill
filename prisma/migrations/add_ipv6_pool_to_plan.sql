@@ -1,0 +1,2 @@
+-- Add IPv6 pool ID field to Plan table
+ALTER TABLE `Plan` ADD COLUMN `vmIpv6PoolId` INT NULL AFTER `vmIpPoolId`;
